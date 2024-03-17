@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+  <title>Frontend Mentor | Product preview card component</title>
+</head>
+
+<body class="bg-[#F2E9E2]">
+  <main class="h-screen w-full flex justify-center items-center">
+    <img class="hidden lg:block w-[460px] mt-[2.5rem] rounded-tl-[15px] rounded-bl-[15px]" src="images/image-product-desktop.jpg" alt="imagem do PERFUME">
+    <div class="w-[375px] lg:w-[460px] h-[690px] bg-white h-171px flex flex-col items-start mt-10 rounded-[10px] lg:rounded-tl-none lg:rounded-bl-none">
+      <img class="lg:hidden rounded-t-[10px]" src="images/image-product-mobile.jpg" alt="imagem do PERFUME">
+      <p class="mt-5 ml-5 tracking-[0.3rem] text-[#6C7289] lg:text-[1.4rem] lg:mt-10 lg:ml-10">PERFUME</p>
+      <h1 class="text-[2.30rem] leading-[2.4rem] mt-3 ml-5 font-[700] lg:ml-10 lg:text-[3.3rem] lg:leading-[3.2rem] lg:mt-7">Gabrielle Essence Eau <br class="hidden lg:block"> De Parfum</h1>
+      <p class="ml-5 mt-4 text-[0.975rem] text-[#6C7289] lg:ml-10 lg:text-[1.4rem] lg:mt-10">A floral, solar and voluptuous <br class="lg:hidden"> interpretation composed by <br class="hidden lg:block"> Olivier <br class="lg:hidden"> Polge, Perfumer-Creator <br class="hidden lg:block"> for the House of <br class="lg:hidden"> CHANEL.</p>
+      <h2 class="ml-5 mt-6 text-[2rem] flex items-center font-[700] text-[#3D8168] lg:ml-10 lg:mt-10 lg:text-[3rem]">$149.99 <span class="text-[#6C7289] line-through text-[0.9rem] ml-5 lg:text-[1.2rem]">$169.99</span></h2>
+      <div class="flex justify-center items-center w-[100%]">
+        <button class="w-[335px] h-16 mt-5 bg-[#3D8168] rounded-[10px] text-[#F2E9E2] font-[700] lg:mt-10 lg:w-[380px]">Add to Cart</button></div>
+    </div>
+  </main>
+</body>
+
+</html>
